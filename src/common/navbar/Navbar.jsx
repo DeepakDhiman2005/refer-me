@@ -23,6 +23,7 @@ import {
   FaChevronUp,
   FaEnvelope
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 // import logo from '../../assets/logo/rmg-logo.png';
 
 
@@ -377,13 +378,13 @@ export default function Navbar() {
 
 function NavLink({ href, children, className = '', ...props }) {
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className={`px-4 py-2 text-sm font-medium text-gray-700 hover:text-yellow-600 transition-colors ${className}`}
       {...props}
     >
       {children}
-    </a>
+    </Link>
   );
 }
 
