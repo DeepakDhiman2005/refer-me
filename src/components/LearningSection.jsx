@@ -11,27 +11,28 @@ const LearningSection = () => {
     {
       title: 'Insights',
       description: 'Get a clear picture of your progress, where you shine and improve with personalized insights on your performance.Join a community of learners to collaborate and grow together.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.',
-      image: 'src/assets/bg-img/gif3.gif',
+      // image: 'src/assets/bg-img/gif3.gif', - wrong method
+      image: './assets/bg-img/gif3.gif', // right method
     },
     {
       title: 'Interactive Learning',
       description: 'Engage with hands-on exercises and real-world projects to solidify your skills.Join a community of learners to collaborate and grow together.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.',
-      image: 'src/assets/bg-img/gif3.gif',
+      image: './assets/bg-img/gif3.gif',
     },
     {
       title: 'AI-Powered Feedback',
       description: 'Receive instant, AI-driven feedback to accelerate your learning journey.Join a community of learners to collaborate and grow together.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.',
-      image: 'src/assets/bg-img/gif3.gif',
+      image: './assets/bg-img/gif3.gif',
     },
     {
       title: 'Progress Tracking',
       description: 'Monitor your growth with detailed analytics and milestone tracking. Join a community of learners to collaborate and grow together.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.',
-      image: 'src/assets/bg-img/gif3.gif',
+      image: './assets/bg-img/gif3.gif',
     },
     {
       title: 'Community Support',
       description: 'Join a community of learners to collaborate and grow together.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.Join the learning revolution with the ultimate AI-Powered Integrated Learning Platform. Designed to provide a highly engaging, immersive learning experience, it’s always YOU at the centre of the learning.',
-      image: 'src/assets/bg-img/gif3.gif',
+      image: './assets/bg-img/gif3.gif',
     },
   ];
 

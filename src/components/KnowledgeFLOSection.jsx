@@ -27,7 +27,8 @@ function KnowledgeFLOSection() {
               {/* Illustration Placeholder */}
               <div className="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center">
                 <img
-                  src="src/assets/creatives/girl.jpg"
+                  // src="src/assets/creatives/girl.jpg" - wrong method
+                  src="./assets/creatives/girl.jpg"
                   alt="KnowledgeFLO Illustration"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -93,7 +94,8 @@ function KnowledgeFLOSection() {
               {/* Illustration */}
               <div className="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center">
                 <img
-                  src="src/assets/creatives/girl.jpg"
+                  // src="src/assets/creatives/girl.jpg" - wrong method
+                  src="./assets/creatives/girl.jpg"
                   alt="KnowledgeFLO Illustration"
                   className="w-full h-full object-cover rounded-lg"
                 />
