@@ -1,6 +1,6 @@
 
 import AppProvider from "./provider/AppProvider";
-import Routing from "./routes/routing";
+import Routing from "./routes/Routing";
 
 function App() {
   return (
