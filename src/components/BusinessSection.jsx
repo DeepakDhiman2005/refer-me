@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRightIcon } from "@heroicons/react/outline"; // Changed from v2 to v1 import
-import fabBackground from "../assets/bg-img/str.jpg";
+// import fabBackground from "../assets/bg-img/str.jpg";
 
 const BusinessSection = () => {
   return (
@@ -9,7 +9,8 @@ const BusinessSection = () => {
         <div 
           className="rounded-xl shadow-lg overflow-hidden"
           style={{
-            backgroundImage: `url(${fabBackground})`,
+            // backgroundImage: `url(${fabBackground})`,
+            backgroundImage: `url('/assets/bg-img/str.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             position: 'relative',

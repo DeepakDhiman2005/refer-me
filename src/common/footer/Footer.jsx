@@ -3,7 +3,7 @@ import {
   FiMapPin, FiMail, FiPhone
 } from 'react-icons/fi';
 import { HiOutlineChevronDoubleRight } from 'react-icons/hi';
-import logo from '../../assets/logo/rmg-logo.png';
+// import logo from '../../assets/logo/rmg-logo.png';
 
 const Footer = () => {
   const quickLinks = ["Home", "Our Story", "What we do", "Meet Our Team", "Payment Policy", "Jobs", "Career", "Contact Us"];
@@ -57,7 +57,7 @@ const Footer = () => {
     <>
       {/* Decorative Footer Image */}
       <img 
-        src="src/assets/banners/footer.png" 
+        src="/assets/banners/footer.png" 
         alt="Footer Banner" 
         className="w-full"
         style={{ clipPath: 'polygon(0 0, 100% 20%, 100% 100%, 0% 100%)' }} 
@@ -70,7 +70,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div>
             <div className="mb-4">
-              <img src={logo} className="w-36" alt="Logo" />
+              <img src={'/assets/logo/rmg-logo.png'} className="w-36" alt="Logo" />
             </div>
             <p className="text-sm leading-relaxed text-gray-300">
               We are dedicated to facilitating career advancement and fostering professional development. With a wealth of resources and initiatives, we strive to empower individuals at every stage of their journey.

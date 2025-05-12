@@ -72,7 +72,7 @@ const AchievementSection = () => {
       className="py-3 px-4 sm:px-6 lg:px-8  text-gray-800"
       style={{
         backgroundImage:
-        "linear-gradient(135deg, rgba(100, 125, 150, 0.2), rgba(230, 240, 255, 0.3)), url('src/assets/bg-img/bg.jpg')"
+        "linear-gradient(135deg, rgba(100, 125, 150, 0.2), rgba(230, 240, 255, 0.3)), url('/assets/bg-img/bg.jpg')"
         ,
           
       }}

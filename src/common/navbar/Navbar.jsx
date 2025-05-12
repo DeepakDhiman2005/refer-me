@@ -23,7 +23,7 @@ import {
   FaChevronUp,
   FaEnvelope
 } from 'react-icons/fa';
-import logo from '../../assets/logo/rmg-logo.png';
+// import logo from '../../assets/logo/rmg-logo.png';
 
 
 export default function Navbar() {
@@ -75,7 +75,7 @@ export default function Navbar() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-3">
             <div className="flex items-center gap-8">
-              <img src={logo} className="h-10" alt="RMG Logo" />
+              <img src={'/assets/logo/rmg-logo.png'} className="h-10" alt="RMG Logo" />
               <div className="relative hidden lg:block w-[400px]">
                 <input
                   type="text"
@@ -214,7 +214,7 @@ export default function Navbar() {
         aria-label="Mobile navigation"
       >
         <div className="flex justify-between items-center p-5 border-b sticky top-0 bg-white z-10">
-          <img src={logo} className="h-8" alt="RMG Logo" />
+          <img src={''} className="h-8" alt="RMG Logo" />
           <button
             onClick={() => setSidebarOpen(false)}
             className="text-gray-500 hover:text-yellow-600 transition-colors"

@@ -59,7 +59,7 @@ const TestimonialSection = () => {
     <>
     <div
      style={{
-        backgroundImage: `url('src/assets/bg-img/poly.avif')`,
+        backgroundImage: `url('/assets/bg-img/poly.avif')`,
         backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

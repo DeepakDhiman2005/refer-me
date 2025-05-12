@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import banner from "../../assets/banners/bann2.jpg";
+// import banner from "../../assets/banners/bann2.jpg";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -25,7 +25,7 @@ const ContactUs = () => {
    
   <>
    <div>
-      <img src={banner} alt="" className='w-full' />
+      <img src={'/assets/banners/bann2.jpg'} alt="" className='w-full' />
     </div>
     <div className="min-h-screen bg-blue-50 py-12 px-4">
       <div className="container mx-auto max-w-7xl">

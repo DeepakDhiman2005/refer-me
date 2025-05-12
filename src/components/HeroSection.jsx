@@ -7,7 +7,7 @@ function HeroSection() {
         {/* Diagonal Background Image */}
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gray-50">
           <img
-            src="src/assets/creatives/main-banner.png"
+            src="/assets/creatives/main-banner.png"
             alt="Team Collaboration"
             className="w-full h-full object-cover transform -rotate-12 origin-top-left"
           />
@@ -68,7 +68,7 @@ function HeroSection() {
       </section>
 
       {/* <img src="src/assets/banners/Banner-1.png" alt="" /> - wrong method import src image */} 
-      <img src="./assets/banners/Banner-1.png" alt="" /> 
+      <img src="/assets/banners/Banner-1.png" alt="" /> 
     </>
 
   );

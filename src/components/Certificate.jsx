@@ -64,7 +64,7 @@ const Certificate = () => {
           {/* Certificate Image Placeholder */}
           <div className="bg-gray-100 border-2  w-full h-full   flex items-center justify-center">
             <div className="text-center p-4">
-              <img src="src/assets/banners/b7.jpg" alt="" className="w-full" />
+              <img src="/assets/banners/b7.jpg" alt="" className="w-full" />
             </div>
           </div>
         </div>

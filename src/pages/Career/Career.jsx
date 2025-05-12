@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBriefcase, FaArrowRight } from 'react-icons/fa';
-import banner from "../../assets/banners/bann.jpg";
+// import banner from "../../assets/banners/bann.jpg";
 
 const Careers = () => {
   const jobListings = [
@@ -111,7 +111,7 @@ const Careers = () => {
   return (
     <>
 <div>
-  <img src={banner} alt="" className='w-full' />
+  <img src={'/assets/banners/bann.jpg'} alt="" className='w-full' />
 </div>
 
       <div className="min-h-screen bg-blue-50 py-12 px-4">

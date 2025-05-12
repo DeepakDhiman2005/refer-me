@@ -21,7 +21,7 @@ const Identity = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="src/assets/bg-img/vedio.mp4" type="video/mp4" />
+          <source src="/assets/bg-img/vedio.mp4" type="video/mp4" />
           <img 
             src="/assets/creatives/girl.jpg" 
             alt="ReferMeGroup background" 

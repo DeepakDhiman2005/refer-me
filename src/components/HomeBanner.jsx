@@ -5,7 +5,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/swiper-bundle.css';
 import { FaShippingFast, FaHeadset, FaUndoAlt } from 'react-icons/fa';
-import banner1 from '../../src/assets/banners/b1.avif'
+// import banner1 from '../../src/assets/banners/b1.avif'
 
  // Sample slide data
  const slides = [
@@ -14,35 +14,35 @@ import banner1 from '../../src/assets/banners/b1.avif'
       title: "Summer Collection",
       subtitle: "New Arrivals 2023",
       // image: '../../src/assets/banners/ban2.png', // - wrong method
-      image: './assets/banners/ban2.png', // - right metho
+      image: '/assets/banners/ban2.png', // - right metho
       cta: "Shop Now"
     },
     {
       id: 2,
       title: "Winter Special",
       subtitle: "Up to 50% Off",
-      image: "./assets/banners/ban1.png",
+      image: "/assets/banners/ban1.png",
       cta: "Discover More"
     },
     {
       id: 3,
       title: "Limited Edition",
       subtitle: "Exclusive Designs",
-      image: "./assets/banners/ban2.png",
+      image: "/assets/banners/ban2.png",
       cta: "View Collection"
     },
     {
         id: 4,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "./assets/banners/ban2.png",
+        image: "/assets/banners/ban2.png",
         cta: "View Collection"
       },
       {
         id: 5,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "./assets/banners/ban1.png",
+        image: "/assets/banners/ban1.png",
         cta: "View Collection"
       }
   ];
@@ -129,7 +129,7 @@ const HomeBanner = () => {
             <div className="grid gap-4 h-full">
               {/* First promotional box */}
               <div className="relative rounded-xl min-h-[190px] h-full text-white overflow-hidden">
-  <div className="absolute inset-0 bg-[url('../../src/assets/banners/sb1.webp')] bg-cover bg-center"></div>
+  <div className="absolute inset-0 bg-[url('/assets/banners/sb1.webp')] bg-cover bg-center"></div>
   <div className="absolute inset-0 bg-blue-600/30"></div>
   <div className="relative z-10 p-6 flex flex-col justify-between h-full">
     <div>
@@ -145,7 +145,7 @@ const HomeBanner = () => {
 
               {/* Second promotional box */}
               <div className="relative rounded-xl min-h-[190px] h-full text-black overflow-hidden">
-  <div className="absolute inset-0 bg-[url('../../src/assets/banners/sb3.jpg')] bg-cover bg-center"></div>
+  <div className="absolute inset-0 bg-[url('/assets/banners/sb3.jpg')] bg-cover bg-center"></div>
   <div className="absolute inset-0 bg-amber-500/50"></div>
   <div className="relative z-10 p-6 flex flex-col justify-between h-full">
     <div>
